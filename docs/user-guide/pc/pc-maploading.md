@@ -1,8 +1,7 @@
-# PC Custom Maps Installation
+# Custom Maps Installation
 ---
 >
-> This guide only applies to the PC version of Gorilla Tag.  
-> If you're using a Quest (without Link), go to the [**Quest Custom Maps Installation**](quest-maploading) guide.
+> This guide applies to both PC and Quest.
 
 ?> `.gtmap` files are cross compatible between PC and Quest, so you can crossplay with your friends, on any platform!
 

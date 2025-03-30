@@ -5,7 +5,7 @@
 - [Beginner's Guide](pc-guide)
 - [Updating Mods](pc-updating)
 - **Custom Maps**
-- [Custom Maps](pc-maploading)
+- [Custom Maps](maploading)
 - **Extras**
 - [Frequently Asked Questions](../faq)
 - **Links**

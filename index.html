@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
+    <meta name="description" content="Get up and running with modifications to Gorilla Tag to enhance your experience.">
+    <!-- OpenGraph Tags -->
+    <meta property="og:title" content="Gorilla Tag Modding Guide">
+    <meta property="og:site_name" content="BurritoSOFTWARE">
+    <meta property="og:url" content="https://gorillatagmodding.burrito.software">
+    <meta property="og:description" content="Get up and running with modifications to Gorilla Tag to enhance your experience.">
+    <meta name="description" content="Get up and running with modifications to Gorilla Tag to enhance your experience.">
+    <meta property="og:image" content="https://gorillatagmodding.burrito.software/docs/assets/img/logo.png">
+    <title>Gorilla Tag Modding Guide</title>
+    <link rel="icon" href="docs/assets/img/favicon.ico">
+
+    <!-- GoatCounter Analytics-->
+    <script data-goatcounter="https://burrito.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="docs/assets/css/dark.css" title="Dark">
+    <link rel="stylesheet" href="docs/assets/css/main.css">
+
+    <!-- Alternate Stylesheets -->
+    <link rel="stylesheet alternate" href="docs/assets/css/light.css" title="Light">
+</head>
+
+<body>
+    <div id="app"></div>
+
+    <!-- JavaScript -->
+    <script>
+        window.$docsify = {
+            // GENERAL
+            // -----------------------------------------------------------------
+            name        : 'Gorilla Tag Modding Guide',
+            homepage    : 'docs/user-guide/introduction.md',
+            logo        : 'docs/assets/img/logo.png',
+            loadNavbar  : 'docs/navbar.md',
+            mergeNavbar : false,
+            loadSidebar : 'sidebar.md',
+            relativePath: true,
+            alias       : {
+                // Original - English
+                '/'                                           : '/docs/user-guide/introduction.md',
+                '/sidebar.md'                                 : '/docs/sidebar.md',
+                '/introduction'                               : '/docs/user-guide/introduction.md',
+                '/pc-guide'                                   : '/docs/user-guide/pc/beginners-guide.md',
+                '/maploading'                              : '/docs/user-guide/Custom Maps/maploading.md',
+                '/pc-updating'                                : '/docs/user-guide/pc/pc-updating.md',
+                '/faq'                                        : '/docs/extras/faq.md',
+                '/choose-guide'                               : '/docs/user-guide/chooseguide.md',
+
+                // About
+                '/about'                                      : '/docs/extras/about.md',
+                '/tips'                                       : '/docs/extras/tips.md'
+            },
+
+            // NAVIGATION
+            // -----------------------------------------------------------------
+            auto2top   : true,
+            maxLevel   : 4,
+            subMaxLevel: 4,
+
+            // PLUGINS
+            // -----------------------------------------------------------------
+            executeScript: true,
+            search: {
+                maxAge     : 300000,
+                depth      : 3,
+                noData     : 'No results!',
+                placeholder: 'Search...'
+            },
+            themeable    : {
+                readyTransition : true,
+                responsiveTables: true
+            },
+            tabs: {
+                persist    : true,
+                sync       : true
+            },
+        };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script src="docs/assets/js/main.js"></script>
+    <script src="docs/assets/js/docsify-pagination.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@latest"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code@2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/external-script.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+</body>
+</html>

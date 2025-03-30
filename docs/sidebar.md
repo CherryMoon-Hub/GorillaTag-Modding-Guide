@@ -1,0 +1,14 @@
+- **User Guide**
+- [Introduction](./)
+- [Choose Your Platform](choose-guide)
+- **PC Modding**
+- [Beginner's Guide](pc-guide)
+- [Updating Mods](pc-updating)
+- **Custom Maps**
+- [Custom Maps](pc-maploading)
+- **Extras**
+- [Frequently Asked Questions](../faq)
+- **Links**
+- [![Discord](https://icongr.am/simple/discord.svg?colored&size=16)Discord](https://discord.gg/monkemod)
+- [![GitHub](https://icongr.am/simple/github.svg?color=808080&size=16)GitHub](https://github.com/burritosoftware/GorillaTag-Modding-Guide)
+- [About](../about)
